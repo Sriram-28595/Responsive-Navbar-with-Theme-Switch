@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <i class="fa-solid fa-bars side-nav"></i>
+        <span class="logo"><a href="javascript:void(0)">Logo</a></span>
+        <nav class="nav-menus">
+          <div class="navbar-toggle">
+            <span><a href="javascript:void(0)">Logo</a></span>
+            <i class="fa-solid fa-xmark close"></i>
+          </div>
+          <ul class="nav-links">
+            <li><a data-hover="Home" href="#">Home</a></li>
+            <li><a data-hover="About" href="#">About</a></li>
+            <li><a data-hover="Projects" href="#">Projects</a></li>
+            <li><a data-hover="Blog" href="#">Blog</a></li>
+            <li><a data-hover="Contact" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="theme-switch">
+          <i class="fa-regular fa-sun sun"></i>
+          <i class="fa-regular fa-moon moon"></i>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
